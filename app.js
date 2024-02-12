@@ -139,7 +139,6 @@ function renderButtons() {
 // setting the display to block if the ingredient is present, otherwise to none
 function renderIngredientsBoard() {
   let items = document.getElementsByClassName('items')
-  console.log(items)
   for (let i of items) {
     if (state[i.textContent]) {
       i.style.display = 'block';
